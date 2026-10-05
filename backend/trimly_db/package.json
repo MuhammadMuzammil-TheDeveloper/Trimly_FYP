@@ -1,0 +1,17 @@
+{
+  "name": "trimly-database",
+  "version": "1.0.0",
+  "description": "Beginner-friendly MongoDB setup for the TRIMLY salon booking FYP",
+  "type": "module",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.9.0"
+  }
+}
