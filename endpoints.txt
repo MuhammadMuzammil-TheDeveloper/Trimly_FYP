@@ -12,6 +12,79 @@ GET /api/customer/salons/filter/area?area=Gulshan-e-Iqbal
 
 GET http://localhost:5000/api/customer/salons/6adafcfadea025416f6c6605
 
+GET http://localhost:5000/api/customer/salons/6adb0b52b293a322541f0447/barbers
+
+GET http://localhost:5000/api/customer/salons/6adb0b52b293a322541f0447/services
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/reviews
+
+GET http://localhost:5000/api/customer/me/profile
+
+PATCH http://localhost:5000/api/customer/me/profile
+
+PATCH http://localhost:5000/api/customer/me/profile/photo
+
+DELETE http://localhost:5000/api/customer/me/profile/photo
+
+GET http://localhost:5000/api/customer/salons/6ae6dc5c6fde407cc315211b/opening-hours
+
+GET http://localhost:5000/api/customer/salons/6adb0b52b293a322541f0447/reviews?page=1&limit=5
+
+GET http://localhost:5000/api/customer/services/search?q=Haircut&page=1&limit=10
+
+GET http://localhost:5000/api/customer/services/category/6adb0b52b293a322541f0448?page=1&limit=10
+
+GET http://localhost:5000/api/customer/services/6adb0b52b293a322541f044a/price
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/rating
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/availability-status
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/availability?date=2026-11-02&serviceId=6adb0b52b293a322541f044a
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/available-dates?serviceId=6adb0b52b293a322541f044a&days=30
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/available-slots?date=2026-11-02&serviceId=6adb0b52b293a322541f044a
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/check-slot?date=2026-11-02&serviceId=6adb0b52b293a322541f044a&startTime=09:00
+
+GET http://localhost:5000/api/customer/barbers/6adb0b53b293a322541f044f/suggested-slots?date=2026-11-02&serviceId=6adb0b52b293a322541f044a&preferredTime=14:00&limit=5
+
+POST http://localhost:5000/api/bookings
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID
+
+GET http://localhost:5000/api/bookings/past?page=1&limit=10
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID/status
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID/appointment-code
+
+PATCH http://localhost:5000/api/bookings/YOUR_BOOKING_ID/cancel
+
+PATCH http://localhost:5000/api/bookings/YOUR_BOOKING_ID/reschedule
+
+GET http://localhost:5000/api/bookings/6ae73c8b52a1231add20da98/cancellation-eligibility
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID/calculate-refund
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID/cancellation-details
+
+GET http://localhost:5000/api/bookings/YOUR_BOOKING_ID/refund-status 
+
+GET http://localhost:5000/api/customer/salons/area?area=NonExistingArea123
+
+GET http://localhost:5000/api/customer/salons/nearby?latitude=24.8607&longitude=67.0011&radius=5
+
+
+{
+  "name": "Muhammad Muzammil",
+  "phone": "08973969628"
+}
+
+
 {
 
   "email": "muzammilCheck@gmail.com",
