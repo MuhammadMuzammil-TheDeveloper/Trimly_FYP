@@ -78,6 +78,13 @@ GET http://localhost:5000/api/customer/salons/area?area=NonExistingArea123
 
 GET http://localhost:5000/api/customer/salons/nearby?latitude=24.8607&longitude=67.0011&radius=5
 
+POST http://localhost:5000/api/customer/favorites/salons/6adb0b52b293a322541f0447
+
+DELETE http://localhost:5000/api/customer/favorites/salons/6adb0b52b293a322541f0447
+
+GET http://localhost:5000/api/customer/favorites/salons
+
+POST http://localhost:5000/api/customer/favorites/barbers/BARBER_PROFILE_ID
 
 {
   "name": "Muhammad Muzammil",
